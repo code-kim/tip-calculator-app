@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/queries.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script
+			defer
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+		<script defer src="script.js"></script>
+
+		<title>Frontend Mentor | Tip calculator app</title>
+	</head>
+	<body>
+		<div class="title">
+			<h2>spli</h2>
+			<h2>tter</h2>
+		</div>
+
+		<div class="calc-container">
+			<form class="tip-input-container">
+				<div class="bill">
+					<label>Bill</label>
+					<div class="input-bill-container">
+						<input type="number" class="inp-bill" placeholder="0" />
+						<div class="dollar-sign">$</div>
+					</div>
+				</div>
+				<div class="select-tip">
+					<label class="select-tip-label">Select Tip %</label>
+					<div class="btns-container">
+						<button type="button" class="btn">5%</button>
+						<button type="button" class="btn">10%</button>
+						<button type="button" class="btn">15%</button>
+						<button type="button" class="btn">25%</button>
+						<button type="button" class="btn">50%</button>
+						<div class="custom-container">
+							<button type="button" class="custom-btn">Custom</button>
+							<input type="number" class="custom-inp hidden" />
+						</div>
+					</div>
+				</div>
+				<div class="number-people">
+					<label class="people-label"
+						>Number of People
+						<span class="error-msg hidden">Can't be zero</span></label
+					>
+					<div class="input-people-container">
+						<input type="number" class="inp-people" placeholder="0" />
+						<ion-icon class="person" name="person"></ion-icon>
+					</div>
+				</div>
+			</form>
+			<div class="tip-output-container">
+				<div class="amount-container">
+					<div class="amount-text">
+						<span class="amount-title"> Tip Amount </span>
+						<span class="amount-person">/ person</span>
+					</div>
+					<div class="amount-number">$0.00</div>
+				</div>
+
+				<div class="total-container">
+					<div class="total-text">
+						<span class="total-title"> Total </span>
+						<span class="total-person">/ person</span>
+					</div>
+					<div class="total-number">$0.00</div>
+				</div>
+
+				<button class="reset-btn">Reset</button>
+			</div>
+		</div>
+
+		<!-- Bill Select Tip % 5% 10% 15% 25% 50% Custom Number of People Tip Amount /
+		person Total / person Reset -->
+
+		<!-- <div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Your Name Here</a>.
+		</div> -->
+	</body>
+</html>

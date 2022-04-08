@@ -1,0 +1,95 @@
+/* *************************** */
+/* BELOW 912px */
+/* *************************** */
+
+@media (max-width: 57em) {
+	.title {
+		margin: 3.5rem 0 3rem;
+	}
+
+	.calc-container {
+		grid-template-columns: 1fr;
+	}
+
+	.tip-output-container {
+		padding: 2.5rem;
+		gap: 2rem;
+		margin-bottom: 1.2rem;
+	}
+
+	.reset-btn {
+		margin-top: 2.5rem;
+	}
+}
+
+/* *************************** */
+/* BELOW 544px */
+/* *************************** */
+
+@media (max-width: 34em) {
+	h2 {
+		font-size: 2.4rem;
+	}
+
+	input {
+		font-size: 2.2rem;
+		padding: 0.5rem 1rem;
+	}
+
+	button {
+		font-size: 2.2rem;
+		padding: 0.5rem 0;
+	}
+
+	.calc-container {
+		min-width: 37.5rem;
+		grid-template-columns: 1fr;
+		padding: 2.2rem;
+
+		gap: 2.2rem;
+	}
+
+	.dollar-sign {
+		font-size: 2.2rem;
+		top: 0.6rem;
+	}
+
+	.btns-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.person {
+		height: 1.8rem;
+		width: 1.8rem;
+	}
+
+	.tip-output-container {
+		border-radius: 15px;
+	}
+
+	.amount-container {
+		margin-top: 1rem;
+	}
+
+	.amount-title,
+	.total-title {
+		font-size: 1.4rem;
+	}
+
+	.amount-person,
+	.total-person {
+		font-size: 1.2rem;
+	}
+
+	.amount-number,
+	.total-number {
+		font-size: 3.4rem;
+	}
+
+	.reset-btn {
+		margin-top: 1rem;
+		width: 100%;
+		font-size: 2rem;
+		padding: 1rem 0;
+	}
+}
