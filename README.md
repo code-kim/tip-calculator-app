@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://tip-calculator-app-by-kim.netlify.app/)
+- Live Site URL: [click here](https://tip-calculator-app-by-kim.netlify.app/)
 
 ## My process
 
